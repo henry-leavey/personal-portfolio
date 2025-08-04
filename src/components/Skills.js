@@ -1,53 +1,35 @@
 // src/components/Skills.js
-import React from 'react';
 import {
+  SiPython,
   SiJavascript,
-  SiTypescript,
-  SiReact,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiTailwindcss,
   SiHtml5,
   SiCss3,
   SiGit,
-  SiFigma,
-  SiFirebase,
-  SiSass,
-  SiBootstrap,
-  SiFlutter,
+  SiMysql,
+  SiTensorflow,
+  SiKeras,
+  SiPandas,
+  SiNodedotjs,
+  SiJupyter,
+  SiGooglecolab,
   SiUnity,
+  SiDotnet,
 } from 'react-icons/si';
 
-import { FaJava, FaSwift } from 'react-icons/fa';
-
 const skills = [
-  { icon: <FaJava />, label: 'Java' },
-  {
-    icon: (
-      <img
-        src="/icons/kotlin.png"
-        alt="Kotlin"
-        className="w-10 h-10 object-contain"
-      />
-    ),
-    label: 'Kotlin',
-  },
-  { icon: <FaSwift />, label: 'Swift' },
-  { icon: <SiFlutter />, label: 'Flutter' },
-  { icon: <SiReact />, label: 'React Native' },
-  { icon: <SiFirebase />, label: 'Firebase' },
-  { icon: <SiUnity />, label: 'Unity' },
+  { icon: <SiPython />, label: 'Python' },
+  { icon: <SiJavascript />, label: 'JavaScript' },
   { icon: <SiHtml5 />, label: 'HTML' },
   { icon: <SiCss3 />, label: 'CSS' },
-  { icon: <SiJavascript />, label: 'JavaScript' },
-  { icon: <SiSass />, label: 'Sass' },
-  { icon: <SiTailwindcss />, label: 'TailwindCSS' },
-  { icon: <SiReact />, label: 'React' },
-  { icon: <SiNextdotjs />, label: 'NextJS' },
-  { icon: <SiTypescript />, label: 'TypeScript' },
-  { icon: <SiNodedotjs />, label: 'NodeJS' },
-  { icon: <SiGit />, label: 'Git' },
-  { icon: <SiFigma />, label: 'Figma' },
+  { icon: <SiDotnet />, label: '.NET' },
+  { icon: <SiUnity />, label: 'Unity' },
+  { icon: <SiTensorflow />, label: 'TensorFlow' },
+  { icon: <SiKeras />, label: 'Keras' },
+  { icon: <SiPandas />, label: 'pandas' },
+  { icon: <SiMysql />, label: 'MySQL' },
+  { icon: <SiGit />, label: 'Git/GitHub' },
+  { icon: <SiJupyter />, label: 'Jupyter Notebook' },
+  { icon: <SiGooglecolab />, label: 'Google Colab' },
 ];
 
 const Skills = () => {
