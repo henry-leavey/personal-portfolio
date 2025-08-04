@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "- AI Developer", "- Software Engineer", "- UI/UX Designer" ];
+  const toRotate = [ "- AI Developer", "- Software Engineer", "- ML Engineer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Henry `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "AI Developer", "Software Engineer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Henry `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "AI Developer", "Software Engineer", "ML Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>As a Software Engineer, I excel in building scalable applications, enhancing user experiences, and streamlining development processes.</p>
                   <a href="#connect" className="no-underline">
                     <button className="vvd"><span>Let’s Connect</span><ArrowRightCircle size={25} /></button>
