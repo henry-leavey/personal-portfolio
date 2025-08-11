@@ -15,27 +15,29 @@ export const Projects = () => {
     {
       title: "AI-Powered Software Configuration Optimiser",
       description: "Developed a cloud-based system to automatically identify high-performing software configurations using CART-based SMBO",
-      imgUrl: projImg1,
+      imgUrl: projImg1
     },
     {
       title: "Robotics Group Project",
       description: "Developed a system for running a robot on wheels",
       imgUrl: projImg2,
+      url: "https://www.youtube.com/watch?v=IJb8-PtCQ5Y"
     },
     {
       title: "Unity Basketball Video Game",
       description: "Developing a video game for fun and programming practice",
-      imgUrl: projImg3,
+      imgUrl: projImg3
     },
     {
       title: "Nail Salon Website",
       description: "Fully deployed and running business website for viewing",
       imgUrl: projImg4,
+      url: "https://vnnailandspa.com/"
     },
     {
       title: "MNIST AI Project",
       description: "AI neural network built from scratch",
-      imgUrl: projImg5,
+      imgUrl: projImg5
     }
   ];
 
