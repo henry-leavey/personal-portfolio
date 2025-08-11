@@ -37,7 +37,8 @@ export const Projects = () => {
     {
       title: "MNIST AI Project",
       description: "AI neural network built from scratch",
-      imgUrl: projImg5
+      imgUrl: projImg5,
+      url: "https://github.com/henry-leavey/MNIST-AI-Model"
     }
   ];
 
